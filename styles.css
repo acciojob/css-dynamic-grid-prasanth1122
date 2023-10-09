@@ -1,1 +1,14 @@
 /*  your css code here. If applicable */
+.grid-item{
+	background-color:lightgray;
+	height:150px;
+	width:200px;
+	border-radius:5px;
+	font-size:40px;
+	text-align:center
+}
+.grid-container{
+	display:flex;
+	flex-wrap:wrap;
+	align-items:center
+}
